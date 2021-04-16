@@ -2,7 +2,7 @@
 A Java Program for detecting circles within a given image by using Circle Hough Transform (**CHT**).
 
 It displays on screen the given image with detected circles highlighted in red.<br>
-It also stores to the root /result directory: 
+It also stores to the project */result* directory (automatically created): 
 * the gray-scale image (*gray.png*)
 * the blurred image (*blur.png*)
 * the sobel image (*sobel.png*)
@@ -27,5 +27,5 @@ Based on:
     * imagePath (**required**): path of the image file.
     * circles (*optional*): number of circles to detect. **Default**: 1.
     * threshold (*optional*): threshold for Sobel Operator. **Default**: 150.
-    * minRadius (*optional*): minimun radius of circles (in px). **Default**: 10.
+    * minRadius (*optional*): minimum radius of circles (in px). **Default**: 10.
     * maxRadius (*optional*): maximum radius of circles (in px). **Default**: 100.
